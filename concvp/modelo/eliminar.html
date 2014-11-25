@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+        <link href="../estatico/css/bootstrap.min.css" rel="stylesheet">
+         <link href="../estatico/css/main.css" rel="stylesheet">
+          <link rel="shortcut icon"  href="../estatico/img/2.jpg" type="image/x-icon">
+          <script type="text/javascript" src="../estatico/js/funciones.js"> </script>
+        <title>menu de opciones</title>
+
+    </head>
+    <body onload="limpiar()">
+        
+        
+                                                                        <header>
+<div class="container">
+
+<div class="row">
+
+<div class="col-xs-12 col-sm-6 cold-md-8 col-lg-8">
+<h1 class="texto tamtex1"> Control de Ventas por Promotor</h1>
+<h5 class="texto tamtex1 "> CVP</h5>
+
+</div>
+
+
+<div class="hidden-xs col-sm-6 cold-md-4 col-lg-4 centrar">
+<a href="#"> <img src="../estatico/img/facebook.png" alt="">  </a>
+<a href="#"> <img src="../estatico/img/google.png" alt="">  </a>
+<a href="#"> <img src="../estatico/img/twitter.png" alt="">  </a>
+
+
+
+</div>
+
+</div>
+
+
+</div>
+
+</header>
+            
+                   <nav class="navbar navbar-default">
+<div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Cambiar Navegacion</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">CVP</a></div>
+
+                  
+                <div  class="collapse navbar-collapse navbar-ex1-collapse">
+                   
+                    <ul class="nav navbar-nav">
+                        <li><a href="../control/controlmenuPrincipal.php">Principal</a></li>
+                        <li><a href="../control/controlventas.php">Ventas</a></li>
+                        <li><a href="../control/controldetalle.php">Detalle</a></li>
+                     
+                    </ul>                   
+                      
+
+
+                   </div>
+
+
+</nav>     
+                      <div class="container">
+
+   <section class="color5">
+
+            <div class="row">
+             <br>
+              <div class="col-xs-6 col-sm-6 col-md-5 col-lg-8 col-md-offset-2">
+                               
+            		
+		
+    <center>
+
+        <h1>
+          buscar id de productos para eleminar
+        </h1>
+        <p>
+        <form name="form" action="eliminar.php" method="post" >
+            <table>
+                <tr>
+                    <td aling="right"><h2>codigo</h2>
+                    <td><input  class="campo texto" type="text" name="txtCodigo">
+                <tr>
+                    <td><input class="btn btn-primary btn-lg active" type="button" value="Buscar" onclick="validar()">
+
+            </table>
+            </form> 
+            <p>
+                <a class="btn btn-primary btn-lg active" onclick="window.location = '../control/controladmin.php'">
+                    <span>regresar</span></a>
+                
+                </center>
+    </div>
+              </div>
+                     </section>
+                    </div>
+                </body>
+       <br>
+        <br>
+        <br>
+          <br>
+           <footer class="color4">
+            <div class="container"><br>
+                 <div class="col-xs-6 col-sm-6 col-md-3 col-lg-8 col-md-offset-5">
+                    <p>Cristian Roberto Rojas Minotta <br>
+                      Jose Ignacio Dussán Carvajal 
+                    </p>
+                    
+                </br></div>
+
+                    
+                </div>
+        </footer>
+                </html>	

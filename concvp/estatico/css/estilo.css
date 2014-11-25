@@ -1,0 +1,49 @@
+
+body{
+	background: olive;
+	color:black;
+	font-family: calibri,Arial;
+	font-size: 100%;
+
+}
+h1{
+	color:black;
+	margin:0.25em auto;
+	text-align:center;
+	text-shadow:5px 5px 10px rgba(255,255,255,0.5);
+font-size: 350%;
+}
+.boton{
+ font-size: 12px;
+ border-radius: 5px;
+ padding: 10px 0px 25px 0px;
+ font-weight: bold;
+ color: white;
+ background-color: #e62727;
+ border:0px;
+ width: 80px;
+ height: 20px;
+ 
+ 
+}
+.campo.texto,input{
+    border: 0px;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 15pt;
+    color: black;
+    background-color: white;
+    width: 200px;
+    height: 25px;
+    
+}
+.relleno.blanco{
+    background:white;
+    width: 150px;
+    border-radius: 5px;
+}
+.relleno.silver{
+    background:silver;
+    width: 100px;
+    border-radius: 5px;
+}
